@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>krahSTek PNG Logo</name>
+	<author>theshark</author>
+	<creationDate>2009-02-15</creationDate>
+	<copyright>Copyright (C) 2009 krahSTek, LLC. All rights reserved.</copyright>
+	<license></license>
+	<authorEmail>theshark@krahstek.com</authorEmail>
+	<authorUrl>www.krahstek.com</authorUrl>
+	<version>0.0.0</version>
+	<description>This module allows the use of PNG logos, including in IE</description>
+	<files>
+		<filename module="mod_footer">mod_kt_pnglogo.php</filename>
+	</files>
+	<params>
+	   <param name="filename" type="text" label="Logo Image Filename" description="The name of the file for the PNG logo." />
+	   <param name="width" type="text" label="Width" description="The width of the image (px)." />
+	   <param name="height" type="text" label="Height" description="The height of the image (px)." />
+	   <param name="@spacer" type="spacer" />
+	   <param name="title" type="text" label="Image Title" description="The title for the image." />
+	   <param name="alt" type="text" label="Image alt text" description="The text to use for the image alt tag" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+	</params>
+</install>

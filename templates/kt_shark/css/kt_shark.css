@@ -1,0 +1,278 @@
+@font-face {
+	font-family: '20dbRegular';
+	src: url('../fonts/20db-webfont.eot');
+	src: local('20dbRegular'), url('../fonts/20db-webfont.woff') format('woff'),
+		url('../fonts/20db-webfont.ttf') format('truetype'),
+		url('../fonts/20db-webfont.svg#webfontuVGj6aK5') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #1e1e7a url(../images/shark.gif) fixed no-repeat;
+	color: #ff4000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .95em;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #cc6600;
+	text-shadow: #000033 0px 0px 20px;
+}
+
+a:hover, a:visited:hover {
+	color: #ff8000;
+	text-shadow: #FFFFFF 0px 0px 20px;
+}
+
+ul {
+	list-style: disc outside;
+	margin-left: 1em;
+}
+
+ul li ul {
+	list-style: circle;
+	margin-left: 2.5em;
+}
+
+ul li ul li ul {
+	list-style: square;
+	margin-left: 2em;
+}
+
+ol {
+	list-style: decimal outside;
+	margin-left: 1em;
+}
+
+ol li ol {
+	list-style: lower-alpha;
+	margin-left: 2.5em;
+}
+
+ol li ol li ol {
+	list-style: lower-roman;
+	margin-left: 2em;
+}
+
+#breadcrumb {
+	width: 1000px;
+	margin: 15px auto 10px;
+}
+
+#container {
+	background: #33337e url(../images/shark-blur.gif) fixed no-repeat;
+	margin: 20px auto;
+	border: 3px solid #000033;
+	width: 1000px;
+	line-height: 1.33em;
+	border-radius: 20px;
+	-webkit-box-shadow: black 0px 5px 5px;
+	-moz-box-shadow: black 0px 5px 5px;
+	-moz-border-radius: 20px;
+}
+
+#container h2 {
+	line-height: normal;
+}
+
+#header {
+	margin: 25px auto 20px; 
+}
+
+#header h1 { 
+	font-family: '20dbRegular', Arial, sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+	color: #ff8000;
+	text-shadow: #000033 0px 0px 50px;
+}
+
+#navBar {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#navBar ul {
+	list-style: none;
+	margin: 10px auto;
+	padding: 0;
+}
+
+#navBar li {
+	display: inline;
+	padding: 5px;
+	margin: 5px 30px;
+}
+
+#content {
+	width: 930px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	clear: both;
+}
+
+#image {
+	float: right;
+	border: #000033 2px solid;
+	padding: 10px 10px 10px 10px;
+	margin: 15px 15px 15px 15px;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+#image p {
+	color: #ff4000;
+	line-height: normal;
+}
+
+#content a:link,a:visited {
+	text-decoration: none;
+	color: #ff8000;
+}
+
+#content a:active {
+	text-decoration: underline;
+}
+
+#content a:hover {
+	color: #ff8000;
+}
+
+#footer {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: .6em;
+	text-align: center;
+	margin: 10px 0 0 0;
+	line-height: normal;
+	clear: both;
+	color: #1e1e7a;
+}
+
+//
+Joomla stuff :
+
+#userMods {
+	
+}
+
+.userMod1 {
+	width: 964px;
+	padding: 5px 18px;
+}
+
+.userMod2 {
+	float: left;
+	width: 482px;
+	padding: 5px 9px;
+}
+
+.userMod3 {
+	float: left;
+	width: 321px;
+	padding: 5px 6px;
+}
+
+.userMod4 {
+	float: left;
+	width: 242px;
+	padding: 5px 4px;
+}
+
+.main_content {
+	clear: both;
+}
+
+td.article_column {
+	padding: 0 10px 0 0;
+}
+
+td.column_separator {
+	padding: 0 0 0 10px;
+}
+
+.article_image_right {
+	border: 2px solid #000033;
+	float: right;
+	height: auto;
+	margin: 15px;
+	padding: 10px;
+	position: relative;
+	width: 320px;
+	border-radius: 10px;
+	background: #1e1e7a url(../images/shark.gif) fixed no-repeat;
+	-webkit-box-shadow: inset black 0px 5px 5px;
+	-moz-box-shadow: inset black 0px 5px 5px;
+	-moz-border-radius: 10px;
+}
+
+.article_image_left {
+	border: 2px solid #000033;
+	float: left;
+	height: auto;
+	margin: 15px;
+	padding: 10px;
+	position: relative;
+	width: 320px;
+	border-radius: 10px;
+	background: #1e1e7a url(../images/shark.gif) fixed no-repeat;
+	-webkit-box-shadow: inset black 0px 5px 5px;
+	-moz-box-shadow: inset black 0px 5px 5px;
+	-moz-border-radius: 10px;
+}
+
+.main_content h1 {
+	font-family: '20dbRegular', Arial, sans-serif;
+	text-shadow: #000033 0px 0px 50px;
+	color: #ff8000;
+	font-weight: bolder;
+	line-height: 2.5em;
+    font-size: 2em;
+}
+
+.componentheading,h2 {
+	color: #ff8000;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 1.75em;
+}
+
+.contentheading,h3 {
+	color: #ff8000;
+	font-weight: normal;
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+h4 {
+	color: #ff8000;
+	font-weight: bold;
+	ine-height: 1.25em;
+	font-size: 1em;
+}
+
+.main_content table {
+	width: 100%;
+}
+
+.small,.createdate,.modifydate {
+	font-size: .6em;
+	line-height: normal;
+}
+
+.createdate {
+	padding-bottom: 10px;
+}
+
+.modifydate {
+	padding: 5px;
+	text-align: right;
+}

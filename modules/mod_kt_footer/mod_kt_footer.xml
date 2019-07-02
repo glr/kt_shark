@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>krahSTek Footer</name>
+	<author>theshark</author>
+	<creationDate>2009-02-14</creationDate>
+	<copyright>Copyright (C) 2009 krahSTek, LLC. All rights reserved.</copyright>
+	<license></license>
+	<authorEmail>theshark@krahstek.com</authorEmail>
+	<authorUrl>www.krahstek.com</authorUrl>
+	<version>0.0.0</version>
+	<description>This module shows the krahSTek, LLC Copyright information</description>
+	<files>
+		<filename module="mod_footer">mod_kt_footer.php</filename>
+	</files>
+	<params>
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+	</params>
+</install>

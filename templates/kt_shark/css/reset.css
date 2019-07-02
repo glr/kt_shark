@@ -1,0 +1,15 @@
+/** Reset Styles ******/
+
+* { margin: 0; padding: 0; text-decoration: none; font-size: 1em; outline: none; }
+code, kbd, samp, pre, tt, var, textarea, input, select, xmp { font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, img, a img, form, fieldset, abbr, acronym, object, table { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+body { line-height: 1; background: white; color: black; }
+q { quotes: "" ""; }
+ul, ol { list-style: none; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+
